@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-CoreDataMagicalRecordTempObjectsDemo-MagicalRecord.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-CoreDataMagicalRecordTempObjectsDemo.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-CoreDataMagicalRecordTempObjectsDemoTests-MagicalRecord.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-CoreDataMagicalRecordTempObjectsDemoTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>07727E78783E4FCC8FC74437</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1B1DF3A41ECA44F5B7AE7730</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BA496783D7414ED4A4CECB9D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C7BF310DE78243AE9E63D251</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

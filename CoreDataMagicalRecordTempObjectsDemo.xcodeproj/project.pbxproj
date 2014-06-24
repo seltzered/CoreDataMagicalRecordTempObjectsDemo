@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EBEAFA4D2EA44B4ACE4EB28 /* libPods-CoreDataMagicalRecordTempObjectsDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA67351FE41D4A0DB18BD166 /* libPods-CoreDataMagicalRecordTempObjectsDemo.a */; };
 		D30B968619593A4C00F7E58F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30B968519593A4C00F7E58F /* Cocoa.framework */; };
 		D30B969019593A4C00F7E58F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D30B968E19593A4C00F7E58F /* InfoPlist.strings */; };
 		D30B969219593A4C00F7E58F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D30B969119593A4C00F7E58F /* main.m */; };
@@ -18,6 +19,11 @@
 		D30B96A619593A4C00F7E58F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30B968519593A4C00F7E58F /* Cocoa.framework */; };
 		D30B96AE19593A4C00F7E58F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D30B96AC19593A4C00F7E58F /* InfoPlist.strings */; };
 		D30B96B019593A4C00F7E58F /* CoreDataMagicalRecordTempObjectsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D30B96AF19593A4C00F7E58F /* CoreDataMagicalRecordTempObjectsDemoTests.m */; };
+		D30B96BB19593D6E00F7E58F /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D30B96B919593D6E00F7E58F /* Model.xcdatamodeld */; };
+		D30B96BC19593D6E00F7E58F /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D30B96B919593D6E00F7E58F /* Model.xcdatamodeld */; };
+		D30B96BF19593D8900F7E58F /* Workout.m in Sources */ = {isa = PBXBuildFile; fileRef = D30B96BE19593D8900F7E58F /* Workout.m */; };
+		D30B96C019593D8900F7E58F /* Workout.m in Sources */ = {isa = PBXBuildFile; fileRef = D30B96BE19593D8900F7E58F /* Workout.m */; };
+		D4225F6EC038422FB0AE2A1A /* libPods-CoreDataMagicalRecordTempObjectsDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E4FFC5B8FE4650BBB3463B /* libPods-CoreDataMagicalRecordTempObjectsDemoTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43065341D02746C2A84F9F9D /* Pods-CoreDataMagicalRecordTempObjectsDemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreDataMagicalRecordTempObjectsDemo.xcconfig"; path = "Pods/Pods-CoreDataMagicalRecordTempObjectsDemo.xcconfig"; sourceTree = "<group>"; };
+		69E4FFC5B8FE4650BBB3463B /* libPods-CoreDataMagicalRecordTempObjectsDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CoreDataMagicalRecordTempObjectsDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA67351FE41D4A0DB18BD166 /* libPods-CoreDataMagicalRecordTempObjectsDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CoreDataMagicalRecordTempObjectsDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D30B968219593A4C00F7E58F /* CoreDataMagicalRecordTempObjectsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataMagicalRecordTempObjectsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D30B968519593A4C00F7E58F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D30B968819593A4C00F7E58F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -50,6 +59,10 @@
 		D30B96AB19593A4C00F7E58F /* CoreDataMagicalRecordTempObjectsDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreDataMagicalRecordTempObjectsDemoTests-Info.plist"; sourceTree = "<group>"; };
 		D30B96AD19593A4C00F7E58F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D30B96AF19593A4C00F7E58F /* CoreDataMagicalRecordTempObjectsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataMagicalRecordTempObjectsDemoTests.m; sourceTree = "<group>"; };
+		D30B96BA19593D6E00F7E58F /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		D30B96BD19593D8900F7E58F /* Workout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Workout.h; sourceTree = "<group>"; };
+		D30B96BE19593D8900F7E58F /* Workout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Workout.m; sourceTree = "<group>"; };
+		EDDA7E067DF646A9BB097554 /* Pods-CoreDataMagicalRecordTempObjectsDemoTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreDataMagicalRecordTempObjectsDemoTests.xcconfig"; path = "Pods/Pods-CoreDataMagicalRecordTempObjectsDemoTests.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D30B968619593A4C00F7E58F /* Cocoa.framework in Frameworks */,
+				2EBEAFA4D2EA44B4ACE4EB28 /* libPods-CoreDataMagicalRecordTempObjectsDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +81,7 @@
 			files = (
 				D30B96A619593A4C00F7E58F /* Cocoa.framework in Frameworks */,
 				D30B96A519593A4C00F7E58F /* XCTest.framework in Frameworks */,
+				D4225F6EC038422FB0AE2A1A /* libPods-CoreDataMagicalRecordTempObjectsDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +95,8 @@
 				D30B96A919593A4C00F7E58F /* CoreDataMagicalRecordTempObjectsDemoTests */,
 				D30B968419593A4C00F7E58F /* Frameworks */,
 				D30B968319593A4C00F7E58F /* Products */,
+				43065341D02746C2A84F9F9D /* Pods-CoreDataMagicalRecordTempObjectsDemo.xcconfig */,
+				EDDA7E067DF646A9BB097554 /* Pods-CoreDataMagicalRecordTempObjectsDemoTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +115,8 @@
 				D30B968519593A4C00F7E58F /* Cocoa.framework */,
 				D30B96A419593A4C00F7E58F /* XCTest.framework */,
 				D30B968719593A4C00F7E58F /* Other Frameworks */,
+				CA67351FE41D4A0DB18BD166 /* libPods-CoreDataMagicalRecordTempObjectsDemo.a */,
+				69E4FFC5B8FE4650BBB3463B /* libPods-CoreDataMagicalRecordTempObjectsDemoTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,8 +134,11 @@
 		D30B968B19593A4C00F7E58F /* CoreDataMagicalRecordTempObjectsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D30B96BD19593D8900F7E58F /* Workout.h */,
+				D30B96BE19593D8900F7E58F /* Workout.m */,
 				D30B969719593A4C00F7E58F /* AppDelegate.h */,
 				D30B969819593A4C00F7E58F /* AppDelegate.m */,
+				D30B96B919593D6E00F7E58F /* Model.xcdatamodeld */,
 				D30B969A19593A4C00F7E58F /* MainMenu.xib */,
 				D30B969D19593A4C00F7E58F /* Images.xcassets */,
 				D30B968C19593A4C00F7E58F /* Supporting Files */,
@@ -161,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D30B96B319593A4C00F7E58F /* Build configuration list for PBXNativeTarget "CoreDataMagicalRecordTempObjectsDemo" */;
 			buildPhases = (
+				298B69FAC9644D2B90AE8AB9 /* Check Pods Manifest.lock */,
 				D30B967E19593A4C00F7E58F /* Sources */,
 				D30B967F19593A4C00F7E58F /* Frameworks */,
 				D30B968019593A4C00F7E58F /* Resources */,
+				61098ABCDB174643973C7584 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -178,9 +202,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D30B96B619593A4C00F7E58F /* Build configuration list for PBXNativeTarget "CoreDataMagicalRecordTempObjectsDemoTests" */;
 			buildPhases = (
+				C3DFBF1FAA9B47A49B947A5F /* Check Pods Manifest.lock */,
 				D30B969F19593A4C00F7E58F /* Sources */,
 				D30B96A019593A4C00F7E58F /* Frameworks */,
 				D30B96A119593A4C00F7E58F /* Resources */,
+				721858C7B0E44D45B249FDBD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,6 +273,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		298B69FAC9644D2B90AE8AB9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		61098ABCDB174643973C7584 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-CoreDataMagicalRecordTempObjectsDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		721858C7B0E44D45B249FDBD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-CoreDataMagicalRecordTempObjectsDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3DFBF1FAA9B47A49B947A5F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D30B967E19593A4C00F7E58F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -254,6 +343,8 @@
 			files = (
 				D30B969919593A4C00F7E58F /* AppDelegate.m in Sources */,
 				D30B969219593A4C00F7E58F /* main.m in Sources */,
+				D30B96BB19593D6E00F7E58F /* Model.xcdatamodeld in Sources */,
+				D30B96BF19593D8900F7E58F /* Workout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +353,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D30B96B019593A4C00F7E58F /* CoreDataMagicalRecordTempObjectsDemoTests.m in Sources */,
+				D30B96BC19593D6E00F7E58F /* Model.xcdatamodeld in Sources */,
+				D30B96C019593D8900F7E58F /* Workout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +476,7 @@
 		};
 		D30B96B419593A4C00F7E58F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43065341D02746C2A84F9F9D /* Pods-CoreDataMagicalRecordTempObjectsDemo.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -396,6 +490,7 @@
 		};
 		D30B96B519593A4C00F7E58F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43065341D02746C2A84F9F9D /* Pods-CoreDataMagicalRecordTempObjectsDemo.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -409,6 +504,7 @@
 		};
 		D30B96B719593A4C00F7E58F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDDA7E067DF646A9BB097554 /* Pods-CoreDataMagicalRecordTempObjectsDemoTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CoreDataMagicalRecordTempObjectsDemo.app/Contents/MacOS/CoreDataMagicalRecordTempObjectsDemo";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -431,6 +527,7 @@
 		};
 		D30B96B819593A4C00F7E58F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDDA7E067DF646A9BB097554 /* Pods-CoreDataMagicalRecordTempObjectsDemoTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CoreDataMagicalRecordTempObjectsDemo.app/Contents/MacOS/CoreDataMagicalRecordTempObjectsDemo";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -466,6 +563,7 @@
 				D30B96B519593A4C00F7E58F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D30B96B619593A4C00F7E58F /* Build configuration list for PBXNativeTarget "CoreDataMagicalRecordTempObjectsDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -474,8 +572,22 @@
 				D30B96B819593A4C00F7E58F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D30B96B919593D6E00F7E58F /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D30B96BA19593D6E00F7E58F /* Model.xcdatamodel */,
+			);
+			currentVersion = D30B96BA19593D6E00F7E58F /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D30B967A19593A4C00F7E58F /* Project object */;
 }

@@ -7,6 +7,10 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "CoreData+MagicalRecord.h"
+
+#import "Workout.h"
+
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
