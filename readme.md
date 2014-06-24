@@ -18,7 +18,7 @@ To run the demo, just open the project, run it, then open ~/Library/Application 
 
 The results should look like this:
 
-![results]("DemoResults.png")
+![results](DemoResults.png)
 
 
 ## More info
