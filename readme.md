@@ -16,13 +16,13 @@ The demo does 4 examples:
 
 To run the demo, just open the project, run it, then open ~/Library/Application Support/CoreDataMagicalRecordTempObjectsDemo in a sqlite browser (I used Liya in this example).
 
-#Results
+###Results
 
 ![results](DemoResults.png)
 
 As mentioned, method two of using a nil context then inserting it into a default context loses the attributes we set for it. Method three works. And method four works as the temporary object in the child context is not saved even if we save only the default context.
 
-#More info
+###More info
 
 References to use method 2 (insert from a nil context):
 - http://stackoverflow.com/a/15954967/314780
@@ -34,5 +34,5 @@ References to use method 3/4 (create save from a child context):
 
 Hope this helps someone else learning Core Data!
 
-## What's the deal with workout objects and bouncy houses?
+#### What's the deal with workout objects and bouncy houses?
 See https://www.youtube.com/watch?v=CrycLMsoYjU
