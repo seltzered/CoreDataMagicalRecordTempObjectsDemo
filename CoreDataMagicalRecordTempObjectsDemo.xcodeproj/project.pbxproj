@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D30B968619593A4C00F7E58F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30B968519593A4C00F7E58F /* Cocoa.framework */; };
+		D30B969019593A4C00F7E58F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D30B968E19593A4C00F7E58F /* InfoPlist.strings */; };
+		D30B969219593A4C00F7E58F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D30B969119593A4C00F7E58F /* main.m */; };
+		D30B969619593A4C00F7E58F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D30B969419593A4C00F7E58F /* Credits.rtf */; };
+		D30B969919593A4C00F7E58F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D30B969819593A4C00F7E58F /* AppDelegate.m */; };
+		D30B969C19593A4C00F7E58F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D30B969A19593A4C00F7E58F /* MainMenu.xib */; };
+		D30B969E19593A4C00F7E58F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D30B969D19593A4C00F7E58F /* Images.xcassets */; };
+		D30B96A519593A4C00F7E58F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30B96A419593A4C00F7E58F /* XCTest.framework */; };
+		D30B96A619593A4C00F7E58F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30B968519593A4C00F7E58F /* Cocoa.framework */; };
+		D30B96AE19593A4C00F7E58F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D30B96AC19593A4C00F7E58F /* InfoPlist.strings */; };
+		D30B96B019593A4C00F7E58F /* CoreDataMagicalRecordTempObjectsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D30B96AF19593A4C00F7E58F /* CoreDataMagicalRecordTempObjectsDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D30B96A719593A4C00F7E58F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D30B967A19593A4C00F7E58F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D30B968119593A4C00F7E58F;
+			remoteInfo = CoreDataMagicalRecordTempObjectsDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D30B968219593A4C00F7E58F /* CoreDataMagicalRecordTempObjectsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataMagicalRecordTempObjectsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D30B968519593A4C00F7E58F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D30B968819593A4C00F7E58F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D30B968919593A4C00F7E58F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D30B968A19593A4C00F7E58F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D30B968D19593A4C00F7E58F /* CoreDataMagicalRecordTempObjectsDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreDataMagicalRecordTempObjectsDemo-Info.plist"; sourceTree = "<group>"; };
+		D30B968F19593A4C00F7E58F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D30B969119593A4C00F7E58F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D30B969319593A4C00F7E58F /* CoreDataMagicalRecordTempObjectsDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreDataMagicalRecordTempObjectsDemo-Prefix.pch"; sourceTree = "<group>"; };
+		D30B969519593A4C00F7E58F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D30B969719593A4C00F7E58F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D30B969819593A4C00F7E58F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D30B969B19593A4C00F7E58F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D30B969D19593A4C00F7E58F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D30B96A319593A4C00F7E58F /* CoreDataMagicalRecordTempObjectsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataMagicalRecordTempObjectsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D30B96A419593A4C00F7E58F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D30B96AB19593A4C00F7E58F /* CoreDataMagicalRecordTempObjectsDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreDataMagicalRecordTempObjectsDemoTests-Info.plist"; sourceTree = "<group>"; };
+		D30B96AD19593A4C00F7E58F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D30B96AF19593A4C00F7E58F /* CoreDataMagicalRecordTempObjectsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataMagicalRecordTempObjectsDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D30B967F19593A4C00F7E58F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D30B968619593A4C00F7E58F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D30B96A019593A4C00F7E58F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D30B96A619593A4C00F7E58F /* Cocoa.framework in Frameworks */,
+				D30B96A519593A4C00F7E58F /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D30B967919593A4C00F7E58F = {
+			isa = PBXGroup;
+			children = (
+				D30B968B19593A4C00F7E58F /* CoreDataMagicalRecordTempObjectsDemo */,
+				D30B96A919593A4C00F7E58F /* CoreDataMagicalRecordTempObjectsDemoTests */,
+				D30B968419593A4C00F7E58F /* Frameworks */,
+				D30B968319593A4C00F7E58F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D30B968319593A4C00F7E58F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D30B968219593A4C00F7E58F /* CoreDataMagicalRecordTempObjectsDemo.app */,
+				D30B96A319593A4C00F7E58F /* CoreDataMagicalRecordTempObjectsDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D30B968419593A4C00F7E58F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D30B968519593A4C00F7E58F /* Cocoa.framework */,
+				D30B96A419593A4C00F7E58F /* XCTest.framework */,
+				D30B968719593A4C00F7E58F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D30B968719593A4C00F7E58F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D30B968819593A4C00F7E58F /* AppKit.framework */,
+				D30B968919593A4C00F7E58F /* CoreData.framework */,
+				D30B968A19593A4C00F7E58F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D30B968B19593A4C00F7E58F /* CoreDataMagicalRecordTempObjectsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D30B969719593A4C00F7E58F /* AppDelegate.h */,
+				D30B969819593A4C00F7E58F /* AppDelegate.m */,
+				D30B969A19593A4C00F7E58F /* MainMenu.xib */,
+				D30B969D19593A4C00F7E58F /* Images.xcassets */,
+				D30B968C19593A4C00F7E58F /* Supporting Files */,
+			);
+			path = CoreDataMagicalRecordTempObjectsDemo;
+			sourceTree = "<group>";
+		};
+		D30B968C19593A4C00F7E58F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D30B968D19593A4C00F7E58F /* CoreDataMagicalRecordTempObjectsDemo-Info.plist */,
+				D30B968E19593A4C00F7E58F /* InfoPlist.strings */,
+				D30B969119593A4C00F7E58F /* main.m */,
+				D30B969319593A4C00F7E58F /* CoreDataMagicalRecordTempObjectsDemo-Prefix.pch */,
+				D30B969419593A4C00F7E58F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D30B96A919593A4C00F7E58F /* CoreDataMagicalRecordTempObjectsDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D30B96AF19593A4C00F7E58F /* CoreDataMagicalRecordTempObjectsDemoTests.m */,
+				D30B96AA19593A4C00F7E58F /* Supporting Files */,
+			);
+			path = CoreDataMagicalRecordTempObjectsDemoTests;
+			sourceTree = "<group>";
+		};
+		D30B96AA19593A4C00F7E58F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D30B96AB19593A4C00F7E58F /* CoreDataMagicalRecordTempObjectsDemoTests-Info.plist */,
+				D30B96AC19593A4C00F7E58F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D30B968119593A4C00F7E58F /* CoreDataMagicalRecordTempObjectsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D30B96B319593A4C00F7E58F /* Build configuration list for PBXNativeTarget "CoreDataMagicalRecordTempObjectsDemo" */;
+			buildPhases = (
+				D30B967E19593A4C00F7E58F /* Sources */,
+				D30B967F19593A4C00F7E58F /* Frameworks */,
+				D30B968019593A4C00F7E58F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreDataMagicalRecordTempObjectsDemo;
+			productName = CoreDataMagicalRecordTempObjectsDemo;
+			productReference = D30B968219593A4C00F7E58F /* CoreDataMagicalRecordTempObjectsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D30B96A219593A4C00F7E58F /* CoreDataMagicalRecordTempObjectsDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D30B96B619593A4C00F7E58F /* Build configuration list for PBXNativeTarget "CoreDataMagicalRecordTempObjectsDemoTests" */;
+			buildPhases = (
+				D30B969F19593A4C00F7E58F /* Sources */,
+				D30B96A019593A4C00F7E58F /* Frameworks */,
+				D30B96A119593A4C00F7E58F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D30B96A819593A4C00F7E58F /* PBXTargetDependency */,
+			);
+			name = CoreDataMagicalRecordTempObjectsDemoTests;
+			productName = CoreDataMagicalRecordTempObjectsDemoTests;
+			productReference = D30B96A319593A4C00F7E58F /* CoreDataMagicalRecordTempObjectsDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D30B967A19593A4C00F7E58F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Vivek Gani";
+				TargetAttributes = {
+					D30B96A219593A4C00F7E58F = {
+						TestTargetID = D30B968119593A4C00F7E58F;
+					};
+				};
+			};
+			buildConfigurationList = D30B967D19593A4C00F7E58F /* Build configuration list for PBXProject "CoreDataMagicalRecordTempObjectsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D30B967919593A4C00F7E58F;
+			productRefGroup = D30B968319593A4C00F7E58F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D30B968119593A4C00F7E58F /* CoreDataMagicalRecordTempObjectsDemo */,
+				D30B96A219593A4C00F7E58F /* CoreDataMagicalRecordTempObjectsDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D30B968019593A4C00F7E58F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D30B969019593A4C00F7E58F /* InfoPlist.strings in Resources */,
+				D30B969E19593A4C00F7E58F /* Images.xcassets in Resources */,
+				D30B969619593A4C00F7E58F /* Credits.rtf in Resources */,
+				D30B969C19593A4C00F7E58F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D30B96A119593A4C00F7E58F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D30B96AE19593A4C00F7E58F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D30B967E19593A4C00F7E58F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D30B969919593A4C00F7E58F /* AppDelegate.m in Sources */,
+				D30B969219593A4C00F7E58F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D30B969F19593A4C00F7E58F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D30B96B019593A4C00F7E58F /* CoreDataMagicalRecordTempObjectsDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D30B96A819593A4C00F7E58F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D30B968119593A4C00F7E58F /* CoreDataMagicalRecordTempObjectsDemo */;
+			targetProxy = D30B96A719593A4C00F7E58F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D30B968E19593A4C00F7E58F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D30B968F19593A4C00F7E58F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D30B969419593A4C00F7E58F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D30B969519593A4C00F7E58F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D30B969A19593A4C00F7E58F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D30B969B19593A4C00F7E58F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		D30B96AC19593A4C00F7E58F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D30B96AD19593A4C00F7E58F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D30B96B119593A4C00F7E58F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D30B96B219593A4C00F7E58F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D30B96B419593A4C00F7E58F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreDataMagicalRecordTempObjectsDemo/CoreDataMagicalRecordTempObjectsDemo-Prefix.pch";
+				INFOPLIST_FILE = "CoreDataMagicalRecordTempObjectsDemo/CoreDataMagicalRecordTempObjectsDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D30B96B519593A4C00F7E58F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreDataMagicalRecordTempObjectsDemo/CoreDataMagicalRecordTempObjectsDemo-Prefix.pch";
+				INFOPLIST_FILE = "CoreDataMagicalRecordTempObjectsDemo/CoreDataMagicalRecordTempObjectsDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D30B96B719593A4C00F7E58F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CoreDataMagicalRecordTempObjectsDemo.app/Contents/MacOS/CoreDataMagicalRecordTempObjectsDemo";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreDataMagicalRecordTempObjectsDemo/CoreDataMagicalRecordTempObjectsDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CoreDataMagicalRecordTempObjectsDemoTests/CoreDataMagicalRecordTempObjectsDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D30B96B819593A4C00F7E58F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CoreDataMagicalRecordTempObjectsDemo.app/Contents/MacOS/CoreDataMagicalRecordTempObjectsDemo";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreDataMagicalRecordTempObjectsDemo/CoreDataMagicalRecordTempObjectsDemo-Prefix.pch";
+				INFOPLIST_FILE = "CoreDataMagicalRecordTempObjectsDemoTests/CoreDataMagicalRecordTempObjectsDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D30B967D19593A4C00F7E58F /* Build configuration list for PBXProject "CoreDataMagicalRecordTempObjectsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D30B96B119593A4C00F7E58F /* Debug */,
+				D30B96B219593A4C00F7E58F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D30B96B319593A4C00F7E58F /* Build configuration list for PBXNativeTarget "CoreDataMagicalRecordTempObjectsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D30B96B419593A4C00F7E58F /* Debug */,
+				D30B96B519593A4C00F7E58F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D30B96B619593A4C00F7E58F /* Build configuration list for PBXNativeTarget "CoreDataMagicalRecordTempObjectsDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D30B96B719593A4C00F7E58F /* Debug */,
+				D30B96B819593A4C00F7E58F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D30B967A19593A4C00F7E58F /* Project object */;
+}
