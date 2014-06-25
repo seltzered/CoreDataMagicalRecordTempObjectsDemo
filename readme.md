@@ -7,7 +7,7 @@ The demo does 4 examples:
 
 1) A baseline save without any use of a temporary object, just creating an object with default context 
 
-2) An attempt to save an object initially created with a nil context, then inserted into the default context. This is often suggested and has a high ranking on stackoverflow, but at least on osx, this results prove it's unreliable as it just creates a record of nil attributes.
+2) An attempt to save an object initially created with a nil context, then inserted into the default context. This is often suggested and has a high ranking on stackoverflow, but at least on osx, this results prove it's unreliable as it just creates a record of nil attributes. NOTE: This may be due to my use of Magical Record, but I have not investigated to find the root cause yet..
 
 3) An attempt to save an object created as a child context, which works by saving the child context.
 
